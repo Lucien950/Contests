@@ -17,4 +17,4 @@ def inTri(a,b,c,x):
         return False
 
 
-print(inTri([0,0], [0,3], [4,3], [1,2]))
+print(inTri([1,1], [1,2], [1,3], [1,4]))
