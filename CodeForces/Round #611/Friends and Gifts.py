@@ -19,7 +19,7 @@ for i in priority:
 
 for i in priority:
     for j in emptyGivers:
-        if i != j-1:
+        if i != j:
             giftList[j-1] = i
             emptyGivers.remove(j)
             break
@@ -27,5 +27,6 @@ for i in priority:
 for i in emptyRecieve:
     for j in emptyGivers:
         giftList[j-1] = i
+        emptyGivers.remove(j)
 
 print(*giftList)
