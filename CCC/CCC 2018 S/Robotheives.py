@@ -1,56 +1,55 @@
-# Functions and Imports
-import math
+r, c = input().split(" ")
+r, c = int(r), int(c)
+sr, sc = 0, 0
 
+# Make a maze of all the values
+maze = []
+for i in range(r):
+    maze.append(list(input()))
 
-# Optimize me if you need to
-def getSmallest(b):
-    yee = [[b[0][0], 0], [b[0][N - 1], 1], [b[N - 1][0], 3], [b[N - 1][N - 1], 2]]
-    yee.sort()
-    return yee[0][1]
+##Make a separate maze for all the steps
+stepMaze = []
+for i in range(r):
+    row = []
+    for j in range(c):
+        if maze[i][j] == ".":
+            row.append(-1)
+        elif maze[i][j] == "S":
+            row.append(0)
+            sr = i
+            sc = j
+        else:
+            row.append("/")
+    stepMaze.append(row)
 
+# Making an adjacency list
+adjList = []
+#Up, Right, Down, Left; clockwise motion
+directions = [[-1,0], [0,1], [1,0] ,[0,-1]]
+for row  in range(r):
+    for col in range(c):
+        toAdd = []
+        for down, right in directions:
+            newRow = row + down
+            newCol = col + right
+            if newRow < 0 or newCol < 0:
+                continue
+            if newRow  + 1 > r or newCol + 1> c:
+                continue
 
-def rotateMatrix(mat, times):
-    for i in range(times):
-        # Consider all squares one by one
-        for x in range(0, int(N / 2)):
-            # Consider elements in group
-            # of 4 in current square
-            for y in range(x, N - x - 1):
-                # store current cell in temp variable
-                temp = mat[x][y]
+            typeList = "counting"
+            if typeList == "counting":
+                #Counting Grid
+                toAdd.append(c * newRow + newCol)
+            elif typeList == "absolute":
+                #Absolute Position
+                toAdd.append([newRow, newCol])
+        adjList.append(sorted(toAdd))
 
-                # move values from right to top
-                mat[x][y] = mat[y][N - 1 - x]
+for i in adjList:
+    print(adjList.index(i), i)
 
-                # move values from bottom to right
-                mat[y][N - 1 - x] = mat[N - 1 - x][N - 1 - y]
+q = []
 
-                # move values from left to bottom
-                mat[N - 1 - x][N - 1 - y] = mat[N - 1 - y][x]
-
-                # assign temp to left
-                mat[N - 1 - y][x] = temp
-
-
-def displayMatrix(mat):
-    for i in range(0, N):
-        for j in range(0, N):
-            print(mat[i][j], end=' ')
-        print("")
-
-
-# Initiate Board and Variables
-N = int(input())
-board = []
-for i in range(N):
-    add = input().split(" ")
-    for i in range(len(add)):
-        add[i] = int(add[i])
-    board.append(add)
-
-smalLoc = getSmallest(board)
-# [0,0], [0,last], [last 0], [last last]
-# 0 = nothing, 1 = left, 3 = right, 2 = 180d
-
-rotateMatrix(board, smalLoc)
-displayMatrix(board)
+banList = ["W", "L", "R", "U", "D"]
+print(" ".join([item for row in stepMaze for item in row if item not in banList]))
