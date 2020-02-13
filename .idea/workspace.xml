@@ -2,6 +2,353 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="736ed822-5cc5-45e8-9b35-1c78658a9c17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.11.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.12.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.13.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.6.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.7.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.8.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.9.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.sample1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.sample1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.sample2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J1/j1.sample2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.07.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.08.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.09.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.sample1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.sample1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.sample2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J2/j2.sample2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.sample.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J3/j3.sample.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.07.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.08.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.09.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.11.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.12.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.13.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.14.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.14.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.15.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.15.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.sample01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.sample01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.sample02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.sample02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.sample03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J4S2/s2.sample03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.1-5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.2-5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.3-5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-6.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-7.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-8.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-9.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.4-9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.sample-1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.sample-1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.sample-2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/2018 J/Test Data/J5/j5.sample-2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.07.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.08.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.09.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.11.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.12.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.13.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.14.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.14.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.15.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.15.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.sample.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S1/s1.sample.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.07.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.08.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.09.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.11.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.11.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.12.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.12.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.13.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.13.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.14.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.14.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.15.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.15.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.sample01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.sample01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.sample02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.sample02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.sample03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S2/s2.sample03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.0-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.0-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.1-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.1-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.1-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.1-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.1-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.1-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.2-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.2-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.2-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.2-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.2-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.2-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.3-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.3-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.3-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.3-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.3-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.3-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.sample-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S3/s3.sample-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.1-06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.2-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.3-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-06.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-06.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-07.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-07.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-08.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-08.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-09.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-09.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.4-10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.sample-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.sample-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.sample-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S4/s4.sample-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.0-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.0-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.1-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.2-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.3-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-01.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-01.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-02.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-02.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-03.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-03.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-04.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-04.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-05.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.4-05.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.sample.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Test Data/S5/s5.sample.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2020 S/borgors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2020 S/escapeRoom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2020 S/musicalChairsBeLike.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2020 S/needleVsHaystack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CCC/CCC 2020 S/sprintySpeed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CCC/CCC 2018 S/Robotheives.py" beforeDir="false" afterPath="$PROJECT_DIR$/CCC/CCC 2018 S/Robotheives.py" afterDir="false" />
     </list>
@@ -52,49 +399,7 @@
       <recent name="C:\Users\jessi\Documents\GitHub\Contest\CCC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Robotheives">
-    <configuration name="A. Hotelier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Contest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Round #578" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Round #578/A. Hotelier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Candies Division" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Contest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Round #611" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Round #611/Candies Division.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.needleVsHaystack">
     <configuration name="Friends and Gifts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Contest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,27 +413,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Round #611/Friends and Gifts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Minutes to New Year" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Contest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Round #611" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Round #611/Minutes to New Year.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,13 +442,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Sprinter's Speed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC/CCC 2020 S" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/CCC 2020 S/Sprinter's Speed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="escapeRoom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC/CCC 2020 S" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/CCC 2020 S/escapeRoom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="needleVsHaystack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCC/CCC 2020 S" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCC/CCC 2020 S/needleVsHaystack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.needleVsHaystack" />
+        <item itemvalue="Python.escapeRoom" />
+        <item itemvalue="Python.Sprinter's Speed" />
         <item itemvalue="Python.Robotheives" />
         <item itemvalue="Python.Friends and Gifts" />
-        <item itemvalue="Python.Candies Division" />
-        <item itemvalue="Python.Minutes to New Year" />
-        <item itemvalue="Python.A. Hotelier" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581212401231</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Did we get it?">
+      <created>1581303510746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581303510746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +599,9 @@
     <MESSAGE value="CCC 2018S First Commit" />
     <MESSAGE value="Fixed adjacency list implementation" />
     <MESSAGE value="i know im stupid please don't judge" />
-    <option name="LAST_COMMIT_MESSAGE" value="i know im stupid please don't judge" />
+    <MESSAGE value="Did we get ti?" />
+    <MESSAGE value="Did we get it?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did we get it?" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1581187449708">
@@ -260,62 +616,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="836" y="273" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581204515313" />
-    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1581303498231">
+    <state x="715" y="224" key="#xdebugger.evaluate" timestamp="1581526017805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581303498231" />
-    <state width="526" height="913" key="GridCell.Tab.0.bottom" timestamp="1581303217242">
+    <state x="715" y="224" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1581526017805" />
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1581303509940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217242" />
-    <state width="526" height="913" key="GridCell.Tab.0.center" timestamp="1581303217242">
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581303509940" />
+    <state width="1018" height="438" key="DebuggerActiveHint" timestamp="1581522800984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217242" />
-    <state width="526" height="913" key="GridCell.Tab.0.left" timestamp="1581303217242">
+    <state width="1018" height="438" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1581522800984" />
+    <state width="525" height="656" key="GridCell.Tab.0.bottom" timestamp="1581528760861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217242" />
-    <state width="526" height="913" key="GridCell.Tab.0.right" timestamp="1581303217242">
+    <state width="525" height="656" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
+    <state width="525" height="656" key="GridCell.Tab.0.center" timestamp="1581528760861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217242" />
-    <state width="526" height="913" key="GridCell.Tab.1.bottom" timestamp="1581303217137">
+    <state width="525" height="656" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
+    <state width="525" height="656" key="GridCell.Tab.0.left" timestamp="1581528760861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217137" />
-    <state width="526" height="913" key="GridCell.Tab.1.center" timestamp="1581303217137">
+    <state width="525" height="656" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
+    <state width="525" height="656" key="GridCell.Tab.0.right" timestamp="1581528760861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217137" />
-    <state width="526" height="913" key="GridCell.Tab.1.left" timestamp="1581303217137">
+    <state width="525" height="656" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
+    <state width="525" height="656" key="GridCell.Tab.1.bottom" timestamp="1581528760862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217137" />
-    <state width="526" height="913" key="GridCell.Tab.1.right" timestamp="1581303217137">
+    <state width="525" height="656" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760862" />
+    <state width="525" height="656" key="GridCell.Tab.1.center" timestamp="1581528760861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="526" height="913" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581303217137" />
+    <state width="525" height="656" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
+    <state width="525" height="656" key="GridCell.Tab.1.left" timestamp="1581528760861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="525" height="656" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
+    <state width="525" height="656" key="GridCell.Tab.1.right" timestamp="1581528760861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="525" height="656" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581528760861" />
     <state x="206" y="0" key="SettingsEditor" timestamp="1581210482807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="206" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581210482807" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581212403750">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581303513703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581212403750" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581257246569">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581303513703" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581518446997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581257246569" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581518446997" />
     <state x="773" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581212518457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581212518457" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581188670155">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581520805160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581188670155" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581520805160" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,6 +732,11 @@
           <url>file://$PROJECT_DIR$/CodeForces/Round #611/Friends and Gifts.py</url>
           <line>19</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CCC/CCC 2018 S/Robotheives.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

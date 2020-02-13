@@ -8,6 +8,16 @@ directions = [[-1,0], [0,1], [1,0] ,[0,-1]]
 maze = []
 stepMaze = []
 adjList = []
+def finish():
+    banList = ["/", "+", "-"]
+    for row in stepMaze:
+        for item in row:
+            if item not in banList and item != 0: #not == Wall & not == Start(0)
+                if item == "-2":
+                    print(-1)
+                else:
+                    print(item)
+    quit()
 
 #----------------Make a maze of all the values----------------
 for i in range(r):
@@ -48,6 +58,8 @@ for row in range(r):
                     elif maze[newRow][newCol] == "W":
                         hitWall = True
                         continue
+                    elif stepMaze[newRow][newCol] == 0:
+                        finish()
 
                     #Shift over to continue to find the wall
                     if right == 0:
@@ -59,7 +71,6 @@ for row in range(r):
 #------------------------------------------Processing------------------------------------------
 
 def fill(curPos, distance):
-    toExplore = []
 
     # Iterate in all directions
     for down, right in directions:
@@ -73,34 +84,32 @@ def fill(curPos, distance):
             continue
 
         #Interpret Location
-        if stepMaze[newRow][newCol] == -1:
+        if stepMaze[newRow][newCol] == -1:#Legal space to place
             stepMaze[newRow][newCol] = distance
             toExplore.append([newRow, newCol])
-        elif stepMaze[newRow][newCol] == "-":
+            distanceList.append(distance + 1)
+        elif stepMaze[newRow][newCol] == "-":#Conveyor place to displace
             conveyorMatch = {
-                "U":[-1, 0],
-                "D":[1,0],
-                "R":[0,1],
-                "L":[0,-1]
+                "U": [-1, 0],
+                "D": [1, 0],
+                "R": [0, 1],
+                "L": [0, -1]
             }
             lookValue = maze[newRow][newCol]
             addRow, addCol = conveyorMatch[lookValue]
-            if [newRow + addRow, newCol + addCol] != curPos and maze[newRow + addRow][newCol + addCol] != "W": #So it doesn't point to itself
+
+            if [newRow + addRow, newCol + addCol] != curPos and maze[newRow + addRow][newCol + addCol] != "W" and stepMaze[newRow + addRow][newCol + addCol] == -1:  # So it doesn't point to itself, a wall or an already explored spot
                 stepMaze[newRow + addRow][newCol + addCol] = distance
                 toExplore.append([newRow + addRow, newCol + addCol])
+                distanceList.append(distance + 1)
 
-    #Explore all toExplore locations
-    for location in toExplore:
-        fill(location, distance + 1)
 
-fill([sr, sc], 1)
+toExplore = [[sr, sc]]
+distanceList = [1]
+while len(toExplore) != 0:
+    nextExplore = toExplore.pop(0)
+    nextDistance = distanceList.pop(0)
+    fill(nextExplore, nextDistance)
 
 #------------------------------------------Output Handling------------------------------------------
-banList = ["/", "+", "-"]
-for row in stepMaze:
-    for item in row:
-        if item not in banList and item != 0: #not == Wall & not == Start(0)
-            if item == "-2":
-                print(-1)
-            else:
-                print(item)
+finish()
