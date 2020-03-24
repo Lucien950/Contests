@@ -1,16 +1,37 @@
-def topTwo(a, first, last):
-    top = [0,0] #First index, then value
-    second = [0,0] #~~~
-    for i in range(first,last+1):
-        if a[i] > top[1]:
-            second[0] = top[0]
-            second[1] = top[1]
-            top[0] = i
-            top[1] = a[i]
-        elif a[i] > second[1] or (abs(top[0]-i) < abs(top[0]-second[0]) and a[i] == second[1]):
-            second[0] = i
-            second[1] = a[i]
-    return [top[0], second[0]]
+import numpy as np
 
-a = [8,6,9,4,45,9,6,6,1,5,77]
-print(topTwo(a, 2, 8))
+def done_or_not(board):
+	def checkUnique(a):
+		if len(a) == len(set(a)):
+			return True
+		else:
+			return False
+
+	boardN = np.array(board)
+
+	# Check Rows and Columns
+	for row in board:
+		if not checkUnique(row):
+			return 'Try again!'
+	for i in range(9):
+		if not checkUnique(boardN[:, i]):
+			return 'Try again!'
+
+	# Check Squares
+	for rowNum in range(0, 9, 3):
+		for colNum in range(0, 9, 3):
+			square = np.reshape(boardN[rowNum:rowNum + 3, colNum:colNum + 3], 9)
+			if not checkUnique(square):
+				return 'Try again!'
+
+	return 'Finished!'
+
+print(done_or_not([[1, 3, 2, 5, 7, 9, 4, 6, 8]
+                        ,[4, 9, 8, 2, 6, 1, 3, 7, 5]
+                        ,[7, 5, 6, 3, 8, 4, 2, 1, 9]
+                        ,[6, 4, 3, 1, 5, 8, 7, 9, 2]
+                        ,[5, 2, 1, 7, 9, 3, 8, 4, 6]
+                        ,[9, 8, 7, 4, 2, 6, 5, 3, 1]
+                        ,[2, 1, 4, 9, 3, 5, 6, 8, 7]
+                        ,[3, 6, 5, 8, 1, 7, 9, 2, 4]
+                        ,[8, 7, 9, 6, 4, 2, 1, 5, 3]]))
