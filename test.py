@@ -1,5 +1,5 @@
 import random
-while true:
+while True:
     list = []
     if random.uniform(0, 1) + random.uniform(0, 1) <= 1:
         list.append(1)
