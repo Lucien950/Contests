@@ -1,0 +1,7 @@
+venv
+venv_fake
+.idea
+test.py
+test2.py
+test3.py
+*.pdf
