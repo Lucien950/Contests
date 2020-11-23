@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="736ed822-5cc5-45e8-9b35-1c78658a9c17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Contest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Contest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/Welcome Day/p1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/Welcome Day/p2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/Welcome Day/p3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/Welcome Day/p4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/fallContest/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/fallContest/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/fallContest/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CBOJ/fallContest/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list of ops.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/op.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treetest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +83,96 @@
       <recent name="C:\Users\jessi\Documents\GitHub\Contest\CCC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hartals">
-    <configuration name="codeWars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.3">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CBOJ/fallContest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CBOJ/fallContest/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CBOJ/fallContest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CBOJ/fallContest/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CBOJ/fallContest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CBOJ/fallContest/3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Contest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CBOJ/fallContest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CBOJ/fallContest/4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="treetest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Contest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,51 +185,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codeWars.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hartals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Contest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programming Challenges" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programming Challenges/hartals.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Contest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/treetest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,9 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hartals" />
-        <item itemvalue="Python.test3" />
-        <item itemvalue="Python.codeWars" />
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python.4" />
+        <item itemvalue="Python.2" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.treetest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +236,10 @@
       <workItem from="1601401819959" duration="3291000" />
       <workItem from="1601836517718" duration="85000" />
       <workItem from="1604243732867" duration="306000" />
-      <workItem from="1604244480533" duration="441000" />
+      <workItem from="1604244480533" duration="6061000" />
+      <workItem from="1604254782708" duration="786000" />
+      <workItem from="1604624760274" duration="7441000" />
+      <workItem from="1606096429715" duration="7137000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces contest rep up">
       <created>1577554674814</created>
@@ -294,62 +352,74 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="449" y="169" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1604244023281" />
-    <state x="711" y="133" width="488" height="537" key="#xdebugger.evaluate" timestamp="1597705734649">
+    <state x="738" y="257" width="488" height="537" key="#xdebugger.evaluate" timestamp="1604633846526">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="711" y="133" width="488" height="537" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1597705734649" />
+    <state x="738" y="257" width="488" height="537" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1604633846526" />
     <state x="547" y="152" key="FileChooserDialogImpl" timestamp="1604243919325">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="547" y="152" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604243919325" />
-    <state width="511" height="736" key="GridCell.Tab.0.bottom" timestamp="1601408094738">
+    <state width="576" height="736" key="GridCell.Tab.0.bottom" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="511" height="736" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601408094738" />
-    <state width="511" height="736" key="GridCell.Tab.0.center" timestamp="1601408094738">
+    <state width="576" height="736" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.0.center" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="511" height="736" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1601408094738" />
-    <state width="511" height="736" key="GridCell.Tab.0.left" timestamp="1601408094738">
+    <state width="576" height="736" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.0.left" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="511" height="736" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1601408094738" />
-    <state width="511" height="736" key="GridCell.Tab.0.right" timestamp="1601408094738">
+    <state width="576" height="736" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.0.right" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="511" height="736" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601408094738" />
-    <state width="480" height="736" key="GridCell.Tab.1.bottom" timestamp="1601408094709">
+    <state width="576" height="736" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.1.bottom" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="480" height="736" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1601408094709" />
-    <state width="480" height="736" key="GridCell.Tab.1.center" timestamp="1601408094709">
+    <state width="576" height="736" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.1.center" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="480" height="736" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1601408094709" />
-    <state width="480" height="736" key="GridCell.Tab.1.left" timestamp="1601408094709">
+    <state width="576" height="736" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.1.left" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="480" height="736" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1601408094709" />
-    <state width="480" height="736" key="GridCell.Tab.1.right" timestamp="1601408094709">
+    <state width="576" height="736" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="576" height="736" key="GridCell.Tab.1.right" timestamp="1606103611127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="480" height="736" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1601408094709" />
-    <state x="349" y="175" key="IDE.errors.dialog" timestamp="1596930964842">
+    <state width="576" height="736" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606103611127" />
+    <state width="480" height="706" key="GridCell.Tab.2.bottom" timestamp="1604248500944">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="349" y="175" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1596930964842" />
+    <state width="480" height="706" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1604248500944" />
+    <state width="480" height="706" key="GridCell.Tab.2.center" timestamp="1604248500944">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="480" height="706" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1604248500944" />
+    <state width="480" height="706" key="GridCell.Tab.2.left" timestamp="1604248500944">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="480" height="706" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1604248500944" />
+    <state width="480" height="706" key="GridCell.Tab.2.right" timestamp="1604248500944">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="480" height="706" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1604248500944" />
     <state x="276" y="43" key="SettingsEditor" timestamp="1604244008383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="276" y="43" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604244008383" />
-    <state width="775" height="440" key="XDebugger.FullValuePopup" timestamp="1596935709466">
+    <state width="775" height="440" key="XDebugger.FullValuePopup" timestamp="1604628157479">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="775" height="440" key="XDebugger.FullValuePopup/0.0.1536.864@0.0.1536.864" timestamp="1596935709466" />
-    <state x="498" y="187" width="672" height="565" key="search.everywhere.popup" timestamp="1596931533940">
+    <state width="775" height="440" key="XDebugger.FullValuePopup/0.0.1536.864@0.0.1536.864" timestamp="1604628157479" />
+    <state x="498" y="187" width="672" height="565" key="search.everywhere.popup" timestamp="1606096831140">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="498" y="187" width="672" height="565" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1596931533940" />
+    <state x="498" y="187" width="672" height="565" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606096831140" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,6 +489,36 @@
           <line>8</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CBOJ/Welcome Day/p1.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CBOJ/Welcome Day/p3.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gays.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gays.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CBOJ/fallContest/2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CBOJ/fallContest/3.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -430,19 +530,32 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="n" />
-        <watch expression="int(bin(n)[2:])" language="Python" />
-        <watch expression="int(bin(n&gt;&gt;1)[2:])" language="Python" />
-        <watch expression="int(bin(mask)[2:])" language="Python" />
+        <watch expression="op1(op2(a, b), op3(c, d))" language="Python" />
+        <watch expression="op1(op2(op3(a, b), c), d)" language="Python" />
+        <watch expression="[i for i in [getName(op1), getName(op2), getName(op3)]]" language="Python" />
+        <watch expression="a, b, c, d" language="Python" />
+        <watch expression="'(((' + str(a) + convert[getName(op3)] + str(b) + ')' + convert[getName(op2)] + str(c) + ')' + convert[getName(op1)] + str(d) + ')'" language="Python" />
+        <watch expression="'('+str(a)+convert[getName(op2)]+str(b)+')' + convert[getName(op1)] + '(' + str(c) + convert[getName(op3)] + str(d)+')'" language="Python" />
+        <watch expression="__py_debug_temp_var_847926541" />
+        <watch expression="__py_debug_temp_var_2044881995" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Contests$metaclassPractice.coverage" NAME="metaclassPractice Coverage Results" MODIFIED="1594336601241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Contests$codeWars__1_.coverage" NAME="codeWars (1) Coverage Results" MODIFIED="1597864677242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Contests$codeWars.coverage" NAME="codeWars Coverage Results" MODIFIED="1598136820380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Contests$hartals.coverage" NAME="hartals Coverage Results" MODIFIED="1601405109051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programming Challenges" />
+    <SUITE FILE_PATH="coverage/Contests$1.coverage" NAME="1 Coverage Results" MODIFIED="1606097060473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/fallContest" />
+    <SUITE FILE_PATH="coverage/Contests$gays.coverage" NAME="gays Coverage Results" MODIFIED="1604632102872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Contests$2.coverage" NAME="2 Coverage Results" MODIFIED="1606098589915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/fallContest" />
     <SUITE FILE_PATH="coverage/Contests$test.coverage" NAME="codeWars Coverage Results" MODIFIED="1593653239072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Contests$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1598136826902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Contests$p1.coverage" NAME="p1 Coverage Results" MODIFIED="1604245620236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/Welcome Day" />
+    <SUITE FILE_PATH="coverage/Contests$treetest.coverage" NAME="treetest Coverage Results" MODIFIED="1604633857545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Contests$3.coverage" NAME="3 Coverage Results" MODIFIED="1606103316307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/fallContest" />
+    <SUITE FILE_PATH="coverage/Contests$metaclassPractice.coverage" NAME="metaclassPractice Coverage Results" MODIFIED="1594336601241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Contests$codeWars.coverage" NAME="codeWars Coverage Results" MODIFIED="1598136820380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Contests$p2.coverage" NAME="p2 Coverage Results" MODIFIED="1604246215461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/Welcome Day" />
+    <SUITE FILE_PATH="coverage/Contests$hartals.coverage" NAME="hartals Coverage Results" MODIFIED="1601405109051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programming Challenges" />
+    <SUITE FILE_PATH="coverage/Contests$4.coverage" NAME="4 Coverage Results" MODIFIED="1606102188346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/fallContest" />
+    <SUITE FILE_PATH="coverage/Contests$p3.coverage" NAME="p3 Coverage Results" MODIFIED="1604249694383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CBOJ/Welcome Day" />
   </component>
 </project>
