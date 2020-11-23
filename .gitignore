@@ -1,6 +1,7 @@
 venv
-venv_fake
 .idea
+randoms
+
 test.py
 test2.py
 test3.py
