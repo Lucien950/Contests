@@ -2,7 +2,7 @@ randoms
 venv
 .idea
 
-*.pdf
+**/*.pdf
 .iws
 workspace.xml
 tasks.xml
