@@ -1,17 +1,53 @@
-import math
 from collections import Counter
-from collections import defaultdict
+from math import floor
 
-woodCount = int(input())
-woods = list(map(int, input().split()))
-cc = Counter(woods)
+def boards_at_height(h):
+    pairs = [(i, h-i) for i in range(1, h//2 + 1)]
+    out = 0
+    for a, b in pairs:
+        if a in bCounter and b in bCounter:
+            out += min(bCounter[a], bCounter[b]) if not a == b else floor(bCounter[a]/2)
+    return out
 
-dp = Counter()
-maxWood = max(woods) + 1
-for x in range(1, maxWood):
-    for y in range(x, maxWood):
-        toAdd = (math.floor(cc[x]/2) if x == y else min(cc[x], cc[y]))
-        if toAdd != 0:
-            dp[x+y] += toAdd
+boardCount = int(input())
+# 2 ≤ N ≤ 1000000
+bCounter = Counter(map(int, input().split()))
+# 1 ≤ L_i ≤ 2000
 
-print(dp.most_common()[0][1])
+
+l = w = 0
+h = []
+for height in range(2, 4001):
+    b = boards_at_height(height)
+    if b > l:
+        l, w = b, 0
+        h = []
+    if b == l:
+        w += 1
+        h.append(height)
+
+print(l,w)
+
+
+# for fileNum in range(1, 29):
+#     with open(f'./senior_data/s3/s3.{fileNum:02d}.in') as file:
+#         boardCount = int(file.readline())
+#         # 2 ≤ N ≤ 1000000
+#         bCounter = Counter(map(int, file.readline().split()))
+#         # 1 ≤ L_i ≤ 2000
+#
+#
+#         l = w = 0
+#         h = []
+#         for height in range(2, 4001):
+#             b = boards_at_height(height)
+#             if b > l:
+#                 l, w = b, 0
+#                 h = []
+#             if b == l:
+#                 w += 1
+#                 h.append(height)
+#
+#         # print(l,w)
+#         # print(h)
+#         print(str(l) + " " + str(w) == open(f'./senior_data/s3/s3.{fileNum:02d}.out').read().rstrip())
