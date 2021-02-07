@@ -1,9 +1,9 @@
-from timer import Timer
-import heapq
+from collections import defaultdict
 class UnionFind:
     size = 0
     id = {}
     groups = 0
+    sz = {}
 
     numComponents = 0
     def __init__(self, size):
@@ -11,6 +11,7 @@ class UnionFind:
             raise ValueError("Size must be greater than 0").with_traceback()
         self.size = self.numComponents = size
         self.id = dict([(i, i) for i in range(size)])
+        self.sz = dict([(i, 1) for i in range(size)])
 
     #Find the root of a target
     def find(self, target):
@@ -30,26 +31,29 @@ class UnionFind:
         root2 = self.find(b)
         if root1 == root2:
             raise Exception("Dumbo")
-        self.id[max(root1, root2)] = self.id[min(root1, root2)]
+        if self.sz[root1] >= self.sz[root2]:
+            self.id[root2] = self.id[root1]
+            self.sz[root1] += self.sz[root2]
+        else:
+            self.id[root1] = self.id[root2]
+            self.sz[root2] += self.sz[root1]
         self.numComponents -= 1
 
     def oneGroup(self):
         return self.numComponents == 1
 class Connection:
-    def __init__(self, a:int, b:int, weight:int):
+    def __init__(self, a:int, b:int, weight:int, sOn:int):
         self.a = a
         self.b = b
         self.weight = weight
+        self.sOn = sOn
     def __str__(self):
         return str(self.a) + " <- "+ str(self.weight) + " -> " + str(self.b)
     def __repr__(self):
         return str(self.a) + " <- " + str(self.weight) + " -> " + str(self.b)
 
-
-t = Timer()
 def solve(func=input):
-    t.start()
-    buildingCount, pipeCount, enhancerStrength = tuple(map(int, func().split()))
+    buildingCount, pipeCount, enhancerStrength = map(int, func().split())
 
     # Utility
     plan = UnionFind(buildingCount)
@@ -57,29 +61,37 @@ def solve(func=input):
     offActions = 0
 
     #CONNECTIONS DELETE STUFF
-    connectionsDelete = []
+    connectionsList = []
     for i in range(pipeCount):
         x, y, z = tuple(map(int, func().split()))
-        connectionsDelete.append(Connection(x-1, y-1, z))
-    connectionsDelete = list(zip([True]*(buildingCount-1) + [False]*(pipeCount-(buildingCount-1)), connectionsDelete))
-    connectionsDelete.sort(key=lambda con:con[1].weight)
+        connectionsList.append(Connection(x-1, y-1, z, i < buildingCount-1))
+    connectionsList.sort(key=lambda con:con.weight)
+    connectionsList.reverse()
 
     #Main algorithm
+    usedConnections = defaultdict(defaultdict) #WITH FORM ORIGIN:[(Destination, weight)]
     while not plan.oneGroup():
-        isOn, nextConnect = connectionsDelete.pop(0)
+        nextConnect = connectionsList.pop()
         #If already connected
         if plan.find(nextConnect.a) == plan.find(nextConnect.b):
-            if isOn: offActions += 1
+            if nextConnect.sOn: offActions += 1
             continue
         #Not Connected already
         else:
-            if not isOn: onActions += 1
+            if not nextConnect.sOn: onActions += 1
+            # usedConnections[nextConnect.a][nextConnect.b]= nextConnect.weight
             plan.unify(nextConnect.a, nextConnect.b)
 
+    #Is it Day, or Day - 1?
+    # if not enhancerStrength==0:
+    #     for a, b, weight in connectionsList:
+    #         oldWeight = usedConnections[a][b]
+
     #FINAL OUTPUT
-    t.stop()
     return max(onActions, offActions)
 
+# print(solve())
+
 for testNum in range(1,51):
-    with open('./s4/s4.' + f"{testNum:02d}" + '.in') as file:
-        print(testNum, str(solve(file.readline))==open('./s4/s4.' + f"{testNum:02d}" + '.out').read().rstrip())
+    with open('./senior_data/s4/s4.' + f"{testNum:02d}" + '.in') as file:
+        print(testNum, str(solve(file.readline))==open('./senior_data/s4/s4.' + f"{testNum:02d}" + '.out').read().rstrip())
