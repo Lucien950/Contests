@@ -1,6 +1,5 @@
 randoms
 venv
-venvPYPY
 .idea
 
 **/*.pdf
@@ -15,4 +14,3 @@ CCC/**/*Data
 
 */**/*.exe
 */**/*.obj
-cmake-build-debug/

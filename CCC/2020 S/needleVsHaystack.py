@@ -1,19 +1,22 @@
-from itertools import permutations
+from collections import Counter
 needle = input()
 hay = input()
 
-yee = permutations(needle)#Needle abc produces ['abc', 'acb', 'bac', 'bca', 'cba', 'cab']
+counterNeedle = Counter(needle)
+lenNeedle = len(needle)
 
-permutes = []
-for i in yee:
-	toAdd = ''.join(i)
-	if toAdd not in permutes:
-		permutes.append(toAdd)
-loopPermutes = permutes.copy()
-original = len(permutes)
+i = 0
+permuations = []
+activeCounter = Counter(hay[0:lenNeedle])
+hayLen = len(hay)
+for startI in range(len(hay) - lenNeedle + 1):
+	if counterNeedle == activeCounter and hay[startI:startI + lenNeedle] not in permuations:
+		i += 1
+		permuations.append(hay[startI:startI + lenNeedle])
 
-for i in loopPermutes:
-	if i in hay:
-		permutes.remove(i)
+	activeCounter[hay[startI]] -= 1
+	if activeCounter[hay[startI]] == 0:
+		del activeCounter[hay[startI]]
+	if startI + lenNeedle < hayLen:activeCounter[hay[startI + lenNeedle]] += 1
 
-print(original-len(permutes))
+print(i)
