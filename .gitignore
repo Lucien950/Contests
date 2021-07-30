@@ -16,3 +16,5 @@ CCC/**/*Data
 */**/*.exe
 */**/*.obj
 cmake-build-debug/
+
+CMakeLists.txt
