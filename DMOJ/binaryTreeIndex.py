@@ -1,47 +1,27 @@
 # https://dmoj.ca/problem/ds1
-from collections import Counter
 
 class Fenwick:
 	originalArray = []
 	fen = []
-	def __init__(self, arr):
-		self.originalArray = arr
-		self.fen = [0] * (len(arr) + 1)
-		for i in range(1, len(arr) + 1):
-			self.add(i, arr[i-1])
-
-	def updateFreq(self, i:int, val:int):
-		try:
-			while i >= len(self.originalArray):
-				self.originalArray.append(0)
-			self.originalArray[i] += val
-		except:
-			print("COCKING PENIS")
-		self.fen = [0] * (len(self.originalArray) + 1)
-		for i in range(1, len(self.originalArray) + 1):
-			self.add(i, self.originalArray[i - 1])
-
-	def lsb(self, q):
+	def __init__(self, a, size = 0):
+		self.originalArray = a
+		self.fen = [0] * (len(a) + 1) if not size else [0] * size
+		for i in range(len(a)):
+			self.add(i, a[i])
+	#FUCKING BULLSHIT
+	@staticmethod
+	def lsb(q):
 		return q & (-q)
-	def add(self, i, diff):
-		while i < len(self.fen):
-			self.fen[i] += diff
-			i += self.lsb(i)
-	def update(self, i:int, val:int):
-		#update the frequency list
-		freqFenwick.updateFreq(self.originalArray[i], -1)
-		freqFenwick.updateFreq(val, 1)
 
-		#updaate this fenwick tree
-		self.add(i+1, val - self.originalArray[i])
-		self.originalArray[i] = val
-	def queryInner(self, q: int):
-		res = 0
-		while q > 0:
-			res = res + self.fen[q]
-			q -= self.lsb(q)
-		return res
+	#DOESN'T APPEND, "+= OPERATION"
+	def add(self, arrPos, diff):
+		# 1 indexing
+		arrPos += 1
+		while arrPos < len(self.fen):
+			self.fen[arrPos] += diff
+			arrPos += self.lsb(arrPos)
 
+	#sum from L to R
 	def query(self, l:int, r:int):
 		l+= 1
 		r+= 1
@@ -49,6 +29,28 @@ class Fenwick:
 			return self.queryInner(r)
 		else:
 			return self.queryInner(r) - self.queryInner(l-1)
+	#sum from 0 to Q
+	def queryInner(self, q: int):
+		res = 0
+		while q > 0:
+			res = res + self.fen[q]
+			q -= self.lsb(q)
+		return res
+
+	def updateFreq(self, arrPos:int, diff:int):
+		self.add(arrPos, diff)
+		self.originalArray[arrPos] += diff
+
+	def update(self, arrayPos:int, val:int):
+		#update the frequency list
+		#old -1
+		freqFenwick.updateFreq(self.originalArray[arrayPos], -1)
+		#new +1
+		freqFenwick.updateFreq(val, 1)
+
+		#updaate this fenwick tree
+		self.add(arrayPos, val - self.originalArray[arrayPos])
+		self.originalArray[arrayPos] = val
 
 
 n, m = map(int, input().split())
@@ -58,10 +60,10 @@ ops = []
 for opCount in range(m):
 	ops.append(input().split())
 
-freqList = [0] * (max(arr) + 1)
+freqList = [0] * 100001
 for i in arr:
 	freqList[i] += 1
-freqFenwick = Fenwick(freqList)
+freqFenwick = Fenwick(freqList, 100001)
 
 for op in ops:
 	opName = op.pop(0)
