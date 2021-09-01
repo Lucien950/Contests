@@ -5,7 +5,7 @@ class Fenwick:
 	fen = []
 	def __init__(self, a, size = 0):
 		self.originalArray = a
-		self.fen = [0] * (len(a) + 1) if not size else [0] * size
+		self.fen = [0] * (len(a) + 1) if not size else [0] * (size + 1)
 		for i in range(len(a)):
 			self.add(i, a[i])
 	#FUCKING BULLSHIT
@@ -48,7 +48,7 @@ class Fenwick:
 		#new +1
 		freqFenwick.updateFreq(val, 1)
 
-		#updaate this fenwick tree
+		#update this fenwick tree
 		self.add(arrayPos, val - self.originalArray[arrayPos])
 		self.originalArray[arrayPos] = val
 
@@ -68,10 +68,12 @@ freqFenwick = Fenwick(freqList, 100001)
 for op in ops:
 	opName = op.pop(0)
 	if opName == "C":
+		#position (given in xth element), then value
 		fenwick.update(int(op.pop(0)) - 1, int(op.pop(0)))
 	elif opName == "S":
+		#left side (given in xth element), right side (given in xth element)
 		print(fenwick.query(int(op.pop(0))-1, int(op.pop(0))-1))
 	elif opName == "Q":
-		print(freqFenwick.queryInner(int(op.pop(0)) + 1))
+		print(freqFenwick.query(0, int(op.pop(0))))
 	else:
 		print("COCK")

@@ -1,4 +1,3 @@
-
 class fenwickTree(object):
     #pain
     def __init__(self, arr):

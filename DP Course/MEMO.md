@@ -1,0 +1,14 @@
+# Recipe for Memorization
+
+```bash
+💡 NAME OF THE GAME IS TO REDUCE RECOMPUTATION
+```
+
+1. Make it work recursively
+   - Helps to visualize the problem as a tree
+   - TESTING
+2. Make it efficient
+   - Cut the branches which are repeating computation
+   - Add DP object, hard add some base cases if necessary and not covered by the function
+   - Store returns values in the DP object
+   - Check for answer in DP object, and only calculate if the answer is not already in the DP
