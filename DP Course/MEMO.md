@@ -12,3 +12,7 @@
    - Add DP object, hard add some base cases if necessary and not covered by the function
    - Store returns values in the DP object
    - Check for answer in DP object, and only calculate if the answer is not already in the DP
+
+#CanSum Model
+![image](https://user-images.githubusercontent.com/20777515/131700146-9d20e7d5-1823-4e5c-a996-0606d719f417.png)
+
