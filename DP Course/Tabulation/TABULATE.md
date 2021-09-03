@@ -16,4 +16,6 @@
 
 - Iterate through the table, and fill further positions based on current position
 
+![image](https://user-images.githubusercontent.com/20777515/131937881-bbef7153-b980-4583-ab22-eecc871ea95a.png)
+
   
