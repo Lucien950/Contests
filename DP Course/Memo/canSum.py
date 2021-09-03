@@ -11,7 +11,6 @@ def canSum(targetSum: int, numbers: list[int])->bool:
 	for i in numbers:
 		if canSum(targetSum - i, numbers):
 			return True
-
 	badTargetSums.add(targetSum)
 	return False
 
