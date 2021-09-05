@@ -1,4 +1,6 @@
 import time
+from sys import stdin
+input = stdin.readline
 
 class TimerError(Exception):
     """A custom exception used to report errors in use of Timer class"""
@@ -24,13 +26,10 @@ class Timer:
         print(f"Elapsed time: {elapsed_time:0.4f} seconds")
 
 t = Timer()
-path = 'CCC/2021 S/s3.py'
+path = 'DP Course/Tabulation/howSum.py'
 
 print('=====================')
 t.start()
 exec(open(path).read())
-t.stop()
 print('=====================')
-print()
-
-
+t.stop()

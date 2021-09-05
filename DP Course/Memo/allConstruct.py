@@ -19,6 +19,7 @@ def allConstruct(target:str, wordBank:list[str], dp = None) -> list[list[str]]:
 				total.append(deepcopy(element))
 
 	dp[target] = deepcopy(total)
+	print(dp)
 	return total
 
 print(allConstruct("banana", ["ba", "pa", "ca", "na"])) # 1
