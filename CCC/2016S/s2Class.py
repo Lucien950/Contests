@@ -1,0 +1,6 @@
+questionType = int(input())
+input()
+dmojSpeeds, pegSpeeds= sorted(list(map(int, input().split()))), sorted(list(map(int, input().split())))
+if questionType == 2: dmojSpeeds.reverse()
+elif questionType != 1: print("Invalid question type");exit()
+print(sum([max(d,p) for d, p in zip(dmojSpeeds, pegSpeeds)]))

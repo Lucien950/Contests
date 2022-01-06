@@ -66,7 +66,6 @@ maxDistance, optimalStartingNode = bfs(phoList[0], 0)
 
 subContainsPho = [False] * restoCount
 #POPULATE THE ABOVE ARRAY
-
 solveSubTrees(optimalStartingNode)
 cost = (len([i for i in subContainsPho if i])-1)*2
 
