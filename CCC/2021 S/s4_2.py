@@ -10,20 +10,20 @@ swaps = [(1, 1)]+[tuple(map(int, input().split())) for _ in range(d)]
 
 walkAdj = defaultdict(list)
 for to, f in walkways:
-    walkAdj[to].append(f)
+	walkAdj[to].append(f)
 walkWeights = [-2]+[-1 for _ in range(n)]
 walkWeights[-1]=1
 queue = {4}
 visited = [False for _ in range(n)]
 while queue:
-    node = queue.pop()
-    for next in walkAdj[node]:
-        if visited[next]: continue
-        walkWeights[next] = walkWeights[node] + 1
-        visited[next] = True
-        queue.add(next)
+	node = queue.pop()
+	for next in walkAdj[node]:
+		if visited[next]: continue
+		walkWeights[next] = walkWeights[node] + 1
+		visited[next] = True
+		queue.add(next)
 for s1, s2 in swaps:
-    temp = stations[s1]
-    stations[s1] = stations[s2]
-    stations[s2] = temp
-    
+	temp = stations[s1]
+	stations[s1] = stations[s2]
+	stations[s2] = temp
+	
