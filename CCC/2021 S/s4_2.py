@@ -14,7 +14,7 @@ for to, f in walkways:
 # Amount of time required to navigate to the end from a given node using only walkways
 walkWeights = [float('inf') for _ in range(n + 1)]
 walkWeights[-1]=0
-queue = deque(n)
+queue = deque()
 queue.append(n)
 visited = [False for _ in range(n + 1)]
 while queue:
