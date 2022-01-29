@@ -1,0 +1,1 @@
+n = int(input());string = input();print(n-sum([1 for j, i in enumerate(string) if i == 'I' and j < len(string)-1 and string[j+1] == 'U']))

@@ -18,3 +18,5 @@ CCC/**/*Data
 cmake-build-debug/
 
 CMakeLists.txt
+*.txt
+*.prof
