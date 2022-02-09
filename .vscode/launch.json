@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch s4",
+            "request": "launch",
+            "mainClass": "s4",
+            "projectName": "Contests_7e668169"
+        },
+        {
+            "type": "java",
+            "name": "Launch Riceball",
+            "request": "launch",
+            "mainClass": "Riceball",
+            "projectName": "Contests_7e668169"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
@@ -21,6 +35,6 @@
                 "/tmp/tmp.prof",
                 "${file}"
             ]
-        },
+        }
     ]
 }

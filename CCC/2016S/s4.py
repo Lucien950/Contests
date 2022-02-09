@@ -25,8 +25,28 @@ for i in range(ballCount):
 	res = max(res, dp[i][i])
 
 for q in range(1,ballCount):
-	for left, right in zip(range(ballCount), range(q, ballCount)):
-		print("hello")
+	# left and right of the main range
+	for leftDP, rightDP in zip(range(ballCount), range(q, ballCount)):
+		for rightAdj in range(rightDP):
+			leftMin = rightAdj + 1
+			for leftAdj in range(leftMin, leftDP):
+				pass
+		# if(
+		# 	# o X o
+		# 	(balls[right] == balls[left] and dp[right-1][left+1] != -1) or
+		# 	# O ∴
+		# 	balls[left] == dp[right][left + 1] != -1 or
+		# 	# ∴ O
+		# 	balls[right] == dp[right - 1][left] != -1
+		# ):
+		# 	# we merge the whole range
+		# 	dp[right][left] = balls[right]+balls[left]+dp[right-1][left+1]
+		# 	if right-left == 1: dp[right][left]+=1
+		# 	res = max(res, dp[right][left])
+
 
 [print(row) for row in dp]
-print(res)
+print(res) # answer
+
+
+# UP AND LEFT APPROACH
