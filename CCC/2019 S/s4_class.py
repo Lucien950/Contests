@@ -20,13 +20,15 @@ for k in range(dayVisits): dp[1][k+1] = curMax = max(curMax, attractions[k])
 # fill dp
 for day in range(2, MAXDAYS+1):
     print(f"Day {day}")
-
-    # max as to not overshoot
-    for endAttraction in range(day, max(day+dayVisits, attractionCount)):
-        maxWay = 0
+    for endAttraction in range(day, min(day*dayVisits, attractionCount+1)):
+        print(f"solve for dp({day}, {endAttraction})")
+        maxVal = 0
         for origin in range(day, endAttraction + 1):
-            maxWay = max(maxWay, )
-        dp[day][endAttraction] = maxWay
+            print(f"going back to {origin}")
+            lastRange = dp[day-1][origin-1]
+            if lastRange == -1: continue
+            maxVal = max(maxVal, lastRange + max(attractions[origin-1:endAttraction]))
+        dp[day][endAttraction] = maxVal
 
 print("DP:")
 [print(row) for row in dp]
