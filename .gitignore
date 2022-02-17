@@ -3,7 +3,6 @@ venv
 venvPYPY
 .idea
 
-**/*.pdf
 .iws
 workspace.xml
 tasks.xml
