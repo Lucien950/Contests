@@ -1,1 +1,1 @@
-python -m cProfile -o program.prof "./CCC/2021 S/s4_2.py"
+python -m cProfile -o program.prof "./CCC/2022/s.py"

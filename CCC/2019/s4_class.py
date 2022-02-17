@@ -1,5 +1,5 @@
 data ="""5 3
-2 5 7 1 4""".split("\n")
+5 5 1 1 1""".split("\n")
 input = lambda: data.pop(0)
 
 # from sys import stdin
@@ -19,18 +19,16 @@ for k in range(dayVisits): dp[1][k+1] = curMax = max(curMax, attractions[k])
 
 # fill dp
 for day in range(2, MAXDAYS+1):
-    print(f"Day {day}")
     for endAttraction in range(day, min(day*dayVisits, attractionCount+1)):
-        print(f"solve for dp({day}, {endAttraction})")
         maxVal = 0
         for origin in range(day, endAttraction + 1):
-            print(f"going back to {origin}")
             lastRange = dp[day-1][origin-1]
             if lastRange == -1: continue
             maxVal = max(maxVal, lastRange + max(attractions[origin-1:endAttraction]))
         dp[day][endAttraction] = maxVal
 
-print("DP:")
-[print(row) for row in dp]
+# print("DP:")
+# [print(row) for row in dp]
 
+if dp[-1][-1] == 2000000000: print(attractionCount, dayVisits)
 print(dp[-1][-1])
