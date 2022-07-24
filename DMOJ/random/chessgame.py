@@ -6,18 +6,20 @@ inputList = """5 5
 .*.*.""".split("\n")
 input = lambda: inputList.pop(0)
 
+import sys
+input = sys.stdin.readline
 
 def replace(list, val, newval):
 	for i in range(len(list)):
-			if list[i] == val:
-					list[i] = newval
+		if list[i] == val:
+				list[i] = newval
 	return list
 height, width = map(int, input().split())
 board = [replace(list(input()), ".", False) for _ in range(height)]
 out = 0
 
 for flipCoords in (False, True):
-	if flipCoords:  iterator = enumerate(zip(*board))
+	if flipCoords: iterator = enumerate(zip(*board))
 	else: iterator = enumerate(board)
 	# length is row/col
 	for i, length in iterator:
