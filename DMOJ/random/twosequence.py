@@ -1,3 +1,4 @@
+# https://dmoj.ca/problem/arc1p2
 seqLen, queryCount = map(int, input().split())
 seq1 = list(map(int, input().split()))
 seq2 = list(map(int, input().split()))
