@@ -24,3 +24,4 @@ CMakeLists.txt
 *.pdf
 *.png
 *.jpg
+DMOJ/DMOPC/cyclesort2.py
