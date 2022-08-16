@@ -1,1 +1,1 @@
-python -m cProfile -o program.prof "./CCC/2022/s.py"
+python -m cProfile -o program.prof "../DMOJ/YAC/alchemy.py"
