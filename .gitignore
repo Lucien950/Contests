@@ -24,3 +24,5 @@ CMakeLists.txt
 *.pdf
 *.png
 *.jpg
+
+data
