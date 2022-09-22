@@ -26,3 +26,4 @@ CMakeLists.txt
 *.jpg
 
 data
+dmojScrape.py

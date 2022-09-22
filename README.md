@@ -2,10 +2,14 @@
 
 ## What will you find here?
 * Lots of CCC Practice
+    - Excel spreadsheet with all solves can be found in /CCC
 * Don Mills 2019
 * Codewars things, only if I am proud of it, or need to remember a concept from it
 * LeetCode 100%
 * Codeforces hopefully soon
+* CBOJ Solutions
+* Solutions from UBC Algorithmic Code Monkeys
+* Code Profiling
 
 ## FAQ
 <div style="padding:15px;background-color:#4f5257;border-radius:5px;font-weight:bold">
