@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <cmath>
 #include <algorithm>
+#include <string.h>
 
 using namespace std;
 
@@ -18,26 +19,24 @@ int brute(int n, const int a[], const int b[]){
 
 int solve(const int n, const int a[], const int b[]){
 	int res = 0;
-
-	pair<int, int> pos[n];
-	for(int i = 0; i < n; i++){
-		pos[i] = make_pair(a[i], b[i]);
-	}
-	sort(pos, pos+n);
-
-	for(int a1Pos = 0; pow(pos[a1Pos].first, 2) <= 2 * n && a1Pos < n; a1Pos++){ // a1 = min(ai, aj) <= sqrt(2n)
-		for(int a2Pos = a1Pos + 1; pos[a1Pos].first * pos[a2Pos].first <= 2 * n && a2Pos < n; a2Pos++){ //ai * aj = bi + bj <= 2n
-			int a1 = pos[a1Pos].first, a2 = pos[a2Pos].first;
-
-			if(a1Pos == a2Pos) continue;
-			if(a1 == a2 && a1Pos > a2Pos) continue; //if we are pulling from the same positions, we do this to force uniqueness WLOG
-
-			int targetBSum = a1 * a2;
-
-			int b1 = pos[a1Pos].second, b2 = pos[a2Pos].second;
-			if(b1 + b2 == targetBSum) res++;
+	int lim = ceil(sqrt(2 * n));
+	int freq[lim][n];
+	memset(freq, 0, sizeof(freq));
+	for(int i = 0; i <= n; i++){
+		if(a[i] <= lim){
+			freq[a[i]][b[i]]++;
 		}
 	}
+	// ai = aj
+	for(int i = 0; i < n; i++){
+		int a12 = a[i], b1 = b[i];
+		if(a[i] <= lim){
+			int b2 = a12 * a12 - b1;
+			if (1 <= b2 <= n) res += freq[a12][b2];
+		}
+	}
+	for(int i = 2; i < lim; i += 2)
+		res -= freq[i][i * i / 2];
 	return res;
 }
 
