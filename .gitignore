@@ -27,3 +27,6 @@ cmake-build-debug-normal/
 data
 dmojScrape.py
 /build/
+
+/cmake*
+/*.py
