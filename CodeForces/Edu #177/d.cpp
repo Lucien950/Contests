@@ -9,6 +9,11 @@ using namespace std;
 static array<int, 26> freqs;
 constexpr int MOD = 998244353;
 
+/**
+ * @param x base
+ * @param p power
+ * @return x ** p mod MOD
+ */
 uint64_t bpow(uint64_t x, uint64_t p) {
   uint64_t res = 1;
   while (p) {
@@ -21,6 +26,10 @@ uint64_t bpow(uint64_t x, uint64_t p) {
   return res;
 }
 
+/**
+ * @param a number to calculate factorial of
+ * @return a! mod MOD
+ */
 uint64_t fact(const uint64_t a) {
   uint64_t res = 1;
   for (int i = 2; i <= a; i++) {
@@ -44,24 +53,25 @@ int main() {
 	// one set which sums to floor(sum/2), and another which sums to ceil(sum/2)
 	// for each set, we find how many permutations we can run with it
 
+	const int64_t odds = ceil_div(total_length, 2);
+
 	// dp[i] stores how many ways you can add elements of freq to sum to i
-	vector dp(ceil_div(total_length, 2) + 1, 0);
+	vector dp(odds + 1, 0);
 	dp[0] = 1;
 	for (const int freq : freqs) {
 	  if (freq == 0)
 		continue;
-	  for (int64_t j = ceil_div(total_length, 2); j - freq >= 0; j--) {
+	  for (int64_t j = odds; j - freq >= 0; j--) {
 		// namely dp[j] += dp[j-freq] mod MOD
 		// note that addition under MOD is preserved
-		assert(0 <= j && j < dp.size());
-		assert(0 <= j - freq && j - freq < dp.size());
 		dp[j] = (dp[j] + dp[j - freq]) % MOD;
 	  }
 	}
 
-	uint64_t out = fact(ceil_div(total_length, 2)) * fact(total_length / 2) % MOD * dp[total_length / 2] % MOD;
+	// we are trying to find odds! * evens! * dp[evens] / prod(freq[i]) mod MOD
+	uint64_t out = fact(odds) * fact(total_length / 2) % MOD * dp[total_length / 2] % MOD;
 	for (const int freq : freqs) {
-	  out = out * bpow(fact(freq), MOD - 2) % MOD; // still don't really get how this works
+	  out = out * bpow(fact(freq), MOD - 2) % MOD; // rearrangement of fermat's little theorem
 	}
 	cout << out << endl;
   }
