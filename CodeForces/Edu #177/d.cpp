@@ -29,13 +29,13 @@ uint64_t fact(const uint64_t a) {
   return res;
 }
 
-uint64_t ceil_div(const uint64_t a, const uint64_t b) { return (a + b - 1) / b; }
+int64_t ceil_div(const int64_t a, const int64_t b) { return (a + b - 1) / b; }
 
 int main() {
   int t;
   cin >> t;
   while (t--) {
-	uint64_t total_length = 0; // total_length <= 5e5 <= MAX_INT = 2e9
+	int64_t total_length = 0; // total_length <= 5e5 <= MAX_INT = 2e9
 	for (int i = 0; i < 26; i++) {
 	  cin >> freqs[i];
 	  total_length += freqs[i];
@@ -61,7 +61,7 @@ int main() {
 
 	uint64_t out = fact(ceil_div(total_length, 2)) * fact(total_length / 2) % MOD * dp[total_length / 2] % MOD;
 	for (const int freq : freqs) {
-	  out = out * bpow(fact(freq), MOD - 2) % MOD;
+	  out = out * bpow(fact(freq), MOD - 2) % MOD; // still don't really get how this works
 	}
 	cout << out << endl;
   }
