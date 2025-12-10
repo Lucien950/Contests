@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -17,7 +18,7 @@ public:
 	if (complexity[0] >= complexity[1]) {
 	  return 0;
 	}
-	for (int i = 2; i < complexity.size(); i++) {
+	for (size_t i = 2; i < complexity.size(); i++) {
 	  if (complexity[i - 1] > complexity[i]) {
 		return 0;
 	  }
@@ -27,3 +28,5 @@ public:
 	return factorialMod(static_cast<int>(complexity.size()) - 1);
   }
 };
+
+int main() { cout << Solution::countPermutations({1, 2, 3}) << endl; }
