@@ -14,10 +14,8 @@ class Solution {
 
 public:
   static int countPermutations(const vector<int>& complexity) {
-	for (const auto c : complexity) {
-	  if (c <= complexity[0]) {
-		return 0;
-	  }
+	if (any_of(complexity.begin(), complexity.end(), [complexity](const int c) { return c <= complexity[0]; })) {
+	  return 0;
 	}
 	return factorialMod(static_cast<int>(complexity.size()) - 1);
   }
