@@ -30,3 +30,5 @@ dmojScrape.py
 
 /cmake*
 /*.py
+
+**/*.in
