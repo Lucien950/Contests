@@ -44,7 +44,6 @@ int main() {
   int t;
   cin >> t;
   static array<uint32_t, MAX_N> a_buf{};
-  // static array<uint64_t, MAX_N> dp{};
   while (t--) {
 	size_t n;
 	cin >> n;

@@ -3,14 +3,14 @@
 #include <vector>
 using namespace std;
 
-struct m {
+struct modder {
   size_t min;
   size_t max;
 };
-optional<m> dfs(const size_t at, const vector<vector<size_t>>& children, const vector<size_t>& values) {
-  vector<m> child_values{};
+optional<modder> dfs(const size_t at, const vector<vector<size_t>>& children, const vector<size_t>& values) {
+  vector<modder> child_values{};
   for (const size_t c : children[at]) {
-	const optional<m> x = dfs(c, children, values);
+	const optional<modder> x = dfs(c, children, values);
 	if (not x) {
 	  return nullopt;
 	}
@@ -19,13 +19,13 @@ optional<m> dfs(const size_t at, const vector<vector<size_t>>& children, const v
 
   if (child_values.empty()) {
 	assert(values[at] != 0);
-	return m{values[at], values[at]};
+	return modder{values[at], values[at]};
   }
   assert(values[at] == 0);
 
   const size_t n = child_values.size();
   const size_t o =
-      min_element(child_values.begin(), child_values.end(), [](const m& a, const m& b) { return a.min < b.min; }) -
+      min_element(child_values.begin(), child_values.end(), [](const modder& a, const modder& b) { return a.min < b.min; }) -
       child_values.begin();
   for (size_t i = 0; i < n - 1; i++) {
 	if (child_values[(i + o) % n].max > child_values[(i + o + 1) % n].min) { // order violation
@@ -33,7 +33,7 @@ optional<m> dfs(const size_t at, const vector<vector<size_t>>& children, const v
 	}
   }
 
-  return m{child_values[o].min, child_values[(o - 1 + n) % n].max};
+  return modder{child_values[o].min, child_values[(o - 1 + n) % n].max};
 }
 
 int main() {
