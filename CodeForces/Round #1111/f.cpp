@@ -11,7 +11,10 @@
 using namespace std;
 
 constexpr uint32_t MOD = 998'244'353; // 2 bits away from 32-bit integer overflow
+constexpr uint32_t MOD2 = 1'000'000'007;
+const uint32_t MOD3 = 1'000'000'009;
 
+// you have 3 modders because idk man
 template <integral T, T mod> class modder {
   static_assert(mod > 0, "mod must be positive");
   static_assert(MOD * 2 < numeric_limits<T>::max()); // this makes sure that addition (and sub?) doesn't overflow
@@ -32,11 +35,52 @@ public:
 	return *this;
   }
 
+  bool operator==(const modder&) const = default;
+
   modder() = default;
   // ReSharper disable once CppNonExplicitConvertingConstructor
   constexpr modder(const T a) { val = (a + mod) % mod; }
 };
-static constexpr modder<uint64_t, MOD> zero{0};
+
+// 1. Primary trait template: defaults to false
+template <typename ExpectedT, typename CheckType> struct is_instance_of_A : std::false_type {};
+// 2. Specialization: matches A<T, S> if the first parameter equals ExpectedT
+template <typename T, T S> struct is_instance_of_A<T, modder<T, S>> : std::true_type {};
+// 3. Define the concept
+template <typename CheckType, typename ExpectedT>
+concept FromModder = is_instance_of_A<ExpectedT, CheckType>::value;
+template <typename T, FromModder<T> m1, FromModder<T> m2, FromModder<T> m3> class hasher {
+  constexpr hasher(const m1 h1, const m2 h2, const m3 h3) : h1(h1), h2(h2), h3(h3) {}
+
+public:
+  m1 h1{};
+  m2 h2{};
+  m3 h3{};
+  hasher operator+(const hasher& b) const { return {h1 + b.h1, h2 + b.h2, h3 + b.h3}; }
+  hasher operator-(const hasher& b) const { return {h1 - b.h1, h2 - b.h2, h3 - b.h3}; }
+  hasher operator*(const hasher& b) const { return {h1 * b.h1, h2 * b.h2, h3 * b.h3}; }
+  hasher& operator+=(const hasher& b) {
+	h1 += b.h1;
+	h2 += b.h2;
+	h3 += b.h3;
+	return *this;
+  }
+  hasher() = default;
+  explicit constexpr hasher(T x) : h1(x), h2(x), h3(x) {}
+
+  bool operator==(const hasher&) const = default;
+  hasher& operator=(const hasher& other) = default;
+};
+using problemhash = hasher<uint64_t, modder<uint64_t, MOD>, modder<uint64_t, MOD2>, modder<uint64_t, MOD3>>;
+template <> struct std::hash<problemhash> {
+  std::size_t operator()(const problemhash& p) const noexcept {
+	// Combine the three hash values using a bitwise shift and XOR to minimize collisions
+	return static_cast<std::size_t>(p.h1.val) ^ (static_cast<std::size_t>(p.h2.val) << 1) ^
+	       static_cast<std::size_t>(p.h3.val) << 2;
+  }
+}; // namespace std
+
+static constexpr problemhash zero{0};
 
 template <typename T> class Grid : public vector<vector<T>> {
 public:
@@ -81,7 +125,7 @@ int main() {
   int t;
   cin >> t;
   Grid<bool> grid{};
-  Grid<modder<uint64_t, MOD>> dp1, dp2;
+  Grid<problemhash> dp1, dp2;
   RandomGrid<uint64_t> h, v;
 
   static array<uint32_t, 1000010> pw2{};
@@ -110,7 +154,7 @@ int main() {
 	  ranges::fill(dp1[i], zero);
 	  ranges::fill(dp2[i], zero);
 	}
-	dp1[0][0] = dp2[n - 1][m - 1] = modder<uint64_t, MOD>(1);
+	dp1[0][0] = dp2[n - 1][m - 1] = problemhash{1};
 
 	// forward pass on dp1
 	for (size_t i = 0; i < n; i++) {
@@ -118,9 +162,9 @@ int main() {
 		if (not grid[i][j])
 		  continue;
 		if (i > 0)
-		  dp1[i][j] += dp1[i - 1][j] * modder<uint64_t, MOD>{v[i - 1][j]};
+		  dp1[i][j] += dp1[i - 1][j] * problemhash{v[i - 1][j]};
 		if (j > 0)
-		  dp1[i][j] += dp1[i][j - 1] * modder<uint64_t, MOD>{h[i][j - 1]};
+		  dp1[i][j] += dp1[i][j - 1] * problemhash{h[i][j - 1]};
 	  }
 	}
 	// backwards pass on dp2
@@ -129,17 +173,17 @@ int main() {
 		if (not grid[i][j])
 		  continue;
 		if (i < static_cast<int64_t>(n) - 1)
-		  dp2[i][j] += dp2[i + 1][j] * modder<uint64_t, MOD>{v[i][j]};
+		  dp2[i][j] += dp2[i + 1][j] * problemhash{v[i][j]};
 		if (j < static_cast<int64_t>(m) - 1)
-		  dp2[i][j] += dp2[i][j + 1] * modder<uint64_t, MOD>{h[i][j]};
+		  dp2[i][j] += dp2[i][j + 1] * problemhash{h[i][j]};
 	  }
 	}
 
 	// because you need to sub 1 from this :((((
-	unordered_map<uint64_t, int64_t> path_counts{};
+	unordered_map<problemhash, int64_t> path_counts;
 	for (size_t i = 0; i < n; i++) {
 	  for (size_t j = 0; j < m; j++) {
-		path_counts[(dp1[i][j] * dp2[i][j]).val]++;
+		path_counts[dp1[i][j] * dp2[i][j]]++;
 	  }
 	}
 
